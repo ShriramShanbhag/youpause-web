@@ -265,7 +265,7 @@
     let currentIndex = 1;
   
     // Position carousel at the first real image
-    images[currentIndex].scrollIntoView({ behavior: 'auto', inline: 'center' });
+    // images[currentIndex].scrollIntoView({ behavior: 'auto', inline: 'center' });
   
     function scrollToImage(index, behavior = 'smooth') {
       currentIndex = (index + images.length) % images.length; // Ensure it's always positive
